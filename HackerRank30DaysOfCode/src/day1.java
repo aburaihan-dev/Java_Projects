@@ -24,7 +24,8 @@ public class day1 {
 
         int x = scan.nextInt();
         double y = scan.nextDouble();
-        String q = scan.next().toString();
+        scan.nextLine(); // Clearing the input buffer.(Just taking input of the dummy input that is in the input buffer.)
+        String q = scan.nextLine();
 
         System.out.println(i+x);
         System.out.println(y+d);
