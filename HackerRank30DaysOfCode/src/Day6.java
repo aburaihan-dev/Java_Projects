@@ -7,21 +7,24 @@ import java.util.Scanner;
 public class Day6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String str;
+        int n = scan.nextInt();
+        String[] str = new String[n];
         String str_odd = "";
         String str_evn = "";
-        int n = scan.nextInt();
-        scan.nextLine(); // again clearing dummy input in the input buffer.
-        while (n-- > 0) {
-            str = scan.nextLine();
-            for (int i = 0; i < str.length(); i++) {
-                if (i % 2 == 0) {
-                    str_evn += str.charAt(i);
-                }else {
-                    str_odd += str.charAt(i);
+        scan.nextLine(); // again clearing dummy input from input buffer memory.
+        for (int i = 0; i < n ; i++) {
+            str[i] = scan.nextLine();
+        }
+
+        for (int i = 0; i < n ; i++) {
+            for (int j = 0; j < str[i].length() ; j++) {
+                if (j%2 == 0){
+                    str_evn += str[i].charAt(j);
+                } else {
+                    str_odd += str[i].charAt(j);
                 }
             }
-            System.out.println(str_evn + "  " + str_odd);
+            System.out.println(str_evn + " " + str_odd);
             str_evn = "";
             str_odd = "";
         }
