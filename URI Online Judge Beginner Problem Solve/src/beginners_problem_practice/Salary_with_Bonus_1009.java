@@ -1,5 +1,6 @@
 package beginners_problem_practice;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -15,11 +16,14 @@ public class Salary_with_Bonus_1009 {
         double salary = in.nextDouble();
         double sales = in.nextDouble();
 
-        double salary_finale = salary + sales * .15 ;
+        double salary_finale = salary + (sales * .15) ;
 
-        System.out.printf(" %lf",salary_finale);
-
-//        System.out.format("TOTAL = R$ %.2d",salary_finale);
+        /**
+         * link given below solved the problem.
+         * http://stackoverflow.com/questions/8819842/best-way-to-format-a-double-value-to-2-decimal-places
+         */
+        DecimalFormat format = new DecimalFormat("#.00");
+        System.out.println("TOTAL = R$ " + format.format(salary_finale));
     }
 
 }
