@@ -10,6 +10,8 @@ public class Kmap {
         my_kmap.insertToKmap();
 
         my_kmap.showKmapGrid();
+
+        my_kmap.solveKmap();
     }
 
 }

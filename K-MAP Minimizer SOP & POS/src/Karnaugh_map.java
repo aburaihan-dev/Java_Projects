@@ -40,10 +40,39 @@ public class Karnaugh_map {
         }
     }
 
-    public void solveKmap(){
+    public void solveKmap() {
         //Solution Starts here.
-        for (int i = 0; i < k_map.length ; i++) {
 
+        // 3 variable kmap solution.
+        boolean[] pair_h1 = new boolean[k_map[0].length];
+        boolean[] pair_h2 = new boolean[k_map[0].length];
+        boolean[] pair_v = new boolean[k_map[0].length];
+
+        for (int i = 0; i < k_map[0].length; i++) {
+            if (k_map[0][i] == 1 && k_map[1][i] == 1) {
+                pair_v[i] = true;
+            }
+            if (k_map[0][i] == 1 && k_map[0][i + 1] == 1 && i < k_map[0].length) {
+                pair_h1[i] = true;
+            }
+            if (k_map[1][i] == 1 && k_map[1][i + 1] == 1 && i < k_map[0].length) {
+                pair_h2[i] = true;
+            }
+        }
+
+        System.out.print("1st lane Horizontal paris: ");
+        for (int i = 0; i < pair_h1.length; i++) {
+            System.out.print(pair_h1[i] + " ");
+        }
+        System.out.println();
+        System.out.print("2nd lane Horizontal paris: ");
+        for (int i = 0; i < pair_h1.length; i++) {
+            System.out.print(pair_h1[i] + " ");
+        }
+        System.out.println();
+        System.out.print("Vertical Pairs: ");
+        for (int i = 0; i < pair_v.length; i++) {
+            System.out.print(pair_v[i] + " ");
         }
     }
 
