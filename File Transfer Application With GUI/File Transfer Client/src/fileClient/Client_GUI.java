@@ -19,8 +19,8 @@ import java.util.Vector;
 public class Client_GUI extends JFrame implements ActionListener {
 
     private static Client_GUI instance;
-    public Vector downloadList = new Vector();
     private static SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MMM/yy - hh:mm:ss ");
+    public Vector downloadList = new Vector();
     public Vector serverFileList = new Vector();
 
 
@@ -55,15 +55,6 @@ public class Client_GUI extends JFrame implements ActionListener {
         return instance;
     }
 
-    public Vector getDownloadList() {
-        return downloadList;
-    }
-
-    public void setDownloadList(Vector downloadList) {
-        this.downloadList = downloadList;
-        Client_GUI.getInstance().downLoadList.setListData(downloadList);
-    }
-
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
@@ -73,6 +64,15 @@ public class Client_GUI extends JFrame implements ActionListener {
                 instance.show();
             }
         });
+    }
+
+    public Vector getDownloadList() {
+        return downloadList;
+    }
+
+    public void setDownloadList(Vector downloadList) {
+        this.downloadList = downloadList;
+        Client_GUI.getInstance().downLoadList.setListData(downloadList);
     }
 
     public ClientNetwork getMyConnection() {
@@ -89,7 +89,7 @@ public class Client_GUI extends JFrame implements ActionListener {
         getContentPane().add(cPanel);
 
         JPanel headerPanel = new JPanel(new FlowLayout());
-        cPanel.add(headerPanel , BorderLayout.NORTH);
+        cPanel.add(headerPanel, BorderLayout.NORTH);
 
         servAddress = new JTextField("192.168.0.2");
         servPort = new JTextField("3000");
@@ -157,7 +157,7 @@ public class Client_GUI extends JFrame implements ActionListener {
         console.append(DATE_FORMAT.format(new Date()) + " -> " + message + " \n");
     }
 
-    public boolean warnning(String s){
+    public boolean warnning(String s) {
         JDialog.setDefaultLookAndFeelDecorated(true);
         int response = JOptionPane.showConfirmDialog(null, s, "Confirm",
                 JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
@@ -186,7 +186,7 @@ public class Client_GUI extends JFrame implements ActionListener {
                 }
             }).start();
         }
-        if(e.getSource() == upload){
+        if (e.getSource() == upload) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -209,17 +209,17 @@ public class Client_GUI extends JFrame implements ActionListener {
                 }
             }).start();
         }
-        if (e.getSource() == connect){
-            if (!servAddress.getText().isEmpty() && !servPort.getText().isEmpty()){
-                Client_GUI.getInstance().myConnection = new ClientNetwork(servAddress.getText().toString() , Integer.parseInt(servPort.getText().toString()));
+        if (e.getSource() == connect) {
+            if (!servAddress.getText().isEmpty() && !servPort.getText().isEmpty()) {
+                Client_GUI.getInstance().myConnection = new ClientNetwork(servAddress.getText().toString(), Integer.parseInt(servPort.getText().toString()));
                 Client_GUI.getInstance().myConnection.connectToServer();
                 connect.setEnabled(false);
             }
         }
-        if(e.getSource() == open){
+        if (e.getSource() == open) {
             File file = new File(downLoadList.getSelectedValue().toString());
             System.out.println(file.exists());
-            if(file.exists()){
+            if (file.exists()) {
                 try {
                     System.out.println(file.getName().toString());
                     Desktop.getDesktop().open(file);

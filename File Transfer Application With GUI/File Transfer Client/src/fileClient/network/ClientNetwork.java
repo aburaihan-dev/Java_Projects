@@ -91,7 +91,7 @@ public class ClientNetwork {
         String packet = dataInput.readUTF();
         if (processInputPacketString(packet).equals("SentFile")) {
             saveFile(processInputPacketStringIndex(packet, 1), Long.parseLong(processInputPacketStringIndex(packet, 2)), sp);
-        }else{
+        } else {
             Client_GUI.getInstance().log("Requested File is not Available From Server.");
         }
     }
@@ -105,14 +105,14 @@ public class ClientNetwork {
         Vector v = new Vector();
         v.add(file.getName().toString());
         v.add(String.valueOf(file.length()));
-        outputStream.writeUTF(processOutputPacketString(v,"CheckFile"));
+        outputStream.writeUTF(processOutputPacketString(v, "CheckFile"));
         String packet = inputStream.readUTF();
-        if(processInputPacketString(packet).equals("ReadyToDownload")){
-            sendFile(file.getAbsolutePath().toString() , sp);
-        }else if (processInputPacketString(packet).equals("FileExist")){
-            if(Client_GUI.getInstance().warnning("Do You want to overwrite")){
-                sendFile(file.getAbsolutePath().toString() , sp);
-            }else{
+        if (processInputPacketString(packet).equals("ReadyToDownload")) {
+            sendFile(file.getAbsolutePath().toString(), sp);
+        } else if (processInputPacketString(packet).equals("FileExist")) {
+            if (Client_GUI.getInstance().warnning("Do You want to overwrite")) {
+                sendFile(file.getAbsolutePath().toString(), sp);
+            } else {
                 Client_GUI.getInstance().log("File Exist in Server.Can not upload.");
             }
         }
@@ -158,20 +158,20 @@ public class ClientNetwork {
         long totalRead = 0;
         long remaining = filesize;
         fos_part.write(Integer.parseInt(String.valueOf(filesize)));
-        if (file.exists()){
+        if (file.exists()) {
             read = Integer.parseInt(String.valueOf(file.length()));
             streamOutput.writeUTF(String.valueOf(read));
-        }else {
+        } else {
             streamOutput.writeUTF(String.valueOf(read));
         }
-        long percent = 0 ;
+        long percent = 0;
         long check = 0;
         while ((read = streaminput.read(buffer)) > 0) {
             totalRead += read;
-            percent = (long)((totalRead / (double)filesize) * 100);
-            if(percent>(check + 4)){
+            percent = (long) ((totalRead / (double) filesize) * 100);
+            if (percent > (check + 4)) {
                 Client_GUI.getInstance().log("read " + percent + "%");
-                check= percent;
+                check = percent;
             }
             fos.write(buffer, 0, read);
             fos_part.write(Integer.parseInt(String.valueOf(totalRead)));
