@@ -43,6 +43,8 @@ public class Karnaugh_map {
     public void solveKmap() {
         //Solution Starts here.
 
+        String sloution = "";
+
         // 3 variable kmap solution.
         boolean[] pair_h1 = new boolean[k_map[0].length];
         boolean[] pair_h2 = new boolean[k_map[0].length];
