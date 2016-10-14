@@ -100,15 +100,29 @@ public class Karnaugh_map {
     }
 
     void kmapSolver_3() {
-        String solve = "";
-        for (int i = 0; i < keep.length / 4; i++) {
-            if (keep[i] == true && keep[i + 1] == true) {
-                solve += convertToVar(bit_string_3[i], bit_string_3[i + 1]);
+        String[][] solve = new String[keep.length][3];
+        for (int i = 0; i < keep.length / 2; i++) {
+
+            if(i==1 || i==5){
+                if (keep[i] == true && keep[i + 2] == true) {
+                    solve[i][0] = convertToVar(bit_string_3[i], bit_string_3[i + 2]);
+                }
+            }else {
+                if (keep[i] == true && keep[i + 1] == true) {
+                    solve[i][1] = convertToVar(bit_string_3[i], bit_string_3[i + 1]);
+                }
             }
             if (keep[i] == true && keep[i + 4] == true) {
-                solve += (" + " + convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                solve[i][2] = convertToVar(bit_string_3[i], bit_string_3[i + 4]);
             }
-            System.out.println(solve);
+        }
+        for (int i = 0; i < solve.length ; i++) {
+            for (int j = 0; j <solve[i].length ; j++) {
+                if(solve[i][j] != null){
+                    System.out.print(solve[i][j] + " ");
+                }
+            }
+            System.out.println();
         }
     }
 
