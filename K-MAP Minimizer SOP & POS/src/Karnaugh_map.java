@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Vector;
 
 /**
  * Created by msrabon on 12-Oct-16.
@@ -100,30 +101,79 @@ public class Karnaugh_map {
     }
 
     void kmapSolver_3() {
-        String[][] solve = new String[keep.length][3];
-        for (int i = 0; i < keep.length / 2; i++) {
+        Vector<String> solved = new Vector<String>();
 
-            if(i==1 || i==5){
-                if (keep[i] == true && keep[i + 2] == true) {
-                    solve[i][0] = convertToVar(bit_string_3[i], bit_string_3[i + 2]);
+        for (int i = 0; i < keep.length / 2; i++) {
+            if (keep[i] == true && keep[i + 1] == true && keep[i + 2] == true && keep[i + 3] == true) {
+                solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2], bit_string_3[i + 4], bit_string_3[i + 6]));
+            }
+            if (i == 0 || i == 2) {  // where {0,1,4,5} and {2,3,6,7} group available.
+                if (keep[i] == true && keep[i + 1] == true && keep[i + 4] == true && keep[i + 5] == true) {
+                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1], bit_string_3[i + 4], bit_string_3[i + 5]));
                 }
-            }else {
-                if (keep[i] == true && keep[i + 1] == true) {
-                    solve[i][1] = convertToVar(bit_string_3[i], bit_string_3[i + 1]);
+                if (keep[i] == true && keep[i + 1] == true && (keep[i + 4] != true || keep[i + 5] != true)) {
+                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+                }
+                if (keep[i] == true && keep[i + 4] == true && (keep[i + 1] != true || keep[i + 5] != true)) {
+                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
                 }
             }
-            if (keep[i] == true && keep[i + 4] == true) {
-                solve[i][2] = convertToVar(bit_string_3[i], bit_string_3[i + 4]);
+            if (i == 0 || i == 1) { // {0,2,4,6} and {1,3,5,7} group is available.
+                if (keep[i] == true && keep[i + 2] == true && keep[i + 4] == true && keep[i + 6] == true) {
+                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2], bit_string_3[i + 4], bit_string_3[i + 6]));
+                }
+                if (keep[i] == true && keep[i + 2] == true && (keep[i + 4] != true || keep[i + 6] != true)) {
+                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+                }
+                if (keep[i] == true && keep[i + 4] == true && (keep[i + 2] != true || keep[i + 6] != true)) {
+                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                }
             }
         }
-        for (int i = 0; i < solve.length ; i++) {
-            for (int j = 0; j <solve[i].length ; j++) {
-                if(solve[i][j] != null){
-                    System.out.print(solve[i][j] + " ");
+
+        for (int i = 0; i < solved.size(); i++) {
+            if (i == 0) {
+                System.out.print(solved.elementAt(i).toString());
+            } else {
+                System.out.print(" + " + solved.elementAt(i).toString());
+            }
+        }
+    }
+
+    private String convertToVar(String s, String s1, String s2, String s3) {
+        String solution = "";
+
+        if (String.valueOf(s.charAt(0)).equals(String.valueOf(s3.charAt(0)))) {
+            if (String.valueOf(s.charAt(0)).equals("0")) {
+                solution += "A'";
+            } else {
+                solution += "A";
+            }
+        }
+        if (String.valueOf(s.charAt(1)).equals(String.valueOf(s3.charAt(1)))) {
+            if (String.valueOf(s.charAt(1)).equals("0")) {
+                solution += "B'";
+            } else {
+                solution += "B";
+            }
+        }
+        if (String.valueOf(s.charAt(2)).equals(String.valueOf(s3.charAt(2)))) {
+            if (String.valueOf(s.charAt(2)).equals("0")) {
+                solution += "C'";
+            } else {
+                solution += "C";
+            }
+        }
+        if (s.length() > 3) {
+            if (String.valueOf(s.charAt(3)).equals(String.valueOf(s3.charAt(3)))) {
+                if (String.valueOf(s.charAt(2)).equals("0")) {
+                    solution += "D'";
+                } else {
+                    solution += "D";
                 }
             }
-            System.out.println();
         }
+        return solution;
     }
 
     private String convertToVar(String s, String s1) {
