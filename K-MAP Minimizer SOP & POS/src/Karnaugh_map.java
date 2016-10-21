@@ -100,11 +100,59 @@ public class Karnaugh_map {
 
     }
 
-    void k_mapSolver_three(){
+    void k_mapSolver_three() { // K-map 3 variable soluion.
+        Vector solutions = new Vector();
+        if (keep[0] && keep[1] && keep[2] && keep[3]) { // {0,1,2,3}
+            solutions.addElement(convertToVar(bit_string_3[0], bit_string_3[3]));
+        } else if (keep[4] && keep[5] && keep[6] && keep[7]) { // {4,5,6,7}
+            solutions.addElement(convertToVar(bit_string_3[4], bit_string_3[7]));
+        }
+
+        for (int i = 0; i < 3; i++) {
+            if ((i == 0 || i == 1) && keep[i] && keep[i + 2] && keep[i + 4] && keep[i + 6]) { // {0,2,4,6} and {1,3,5,7}
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 6]));
+            }
+            if (i != 1 && keep[i] && keep[i + 1] && keep[i + 4] && keep[i + 5]) { //{0,1,4,5} , {2,3,6,7}
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 5]));
+            }
+        }
+
+        for (int i = 0; i < 3; i++) {
+
+            if (i == 0 || i == 1) {
+                if (keep[i] && keep[i + 2] && keep[i + 4] && !keep[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                } else if (keep[i] && keep[i + 2] && !keep[i + 4] && keep[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+                    solutions.addElement(convertToVar(bit_string_3[i + 2], bit_string_3[i + 6]));
+                } else if (keep[i] && !keep[i + 2] && keep[i + 4] && keep[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                    solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 6]));
+                } else if (!keep[i] && keep[i + 2] && keep[i + 4] && keep[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i + 2], bit_string_3[i + 6]));
+                    solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 6]));
+                }
+            }
+
+            if (i != 1 && keep[i] && keep[i + 1] && keep[i + 4] && !keep[i + 5]) {
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+            } else if (i != 1 && keep[i] && keep[i + 1] && keep[i + 5] && !keep[i + 4]) {
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+                solutions.addElement(convertToVar(bit_string_3[i + 1], bit_string_3[i + 5]));
+            } else if (i != 1 && keep[i] && keep[i + 4] && keep[i + 5] && !keep[i + 1]) {
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 5]));
+            } else if (i != 1 && keep[i + 1] && keep[i + 4] && keep[i + 5] && !keep[i]) {
+                solutions.addElement(convertToVar(bit_string_3[i + 1], bit_string_3[i + 5]));
+                solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 5]));
+            }
+        }
 
     }
 
-    private String convertToVar(String s, String s1, String s2, String s3) {
+    private String convertToVar(String s, String s3) {
         String solution = "";
 
         if (String.valueOf(s.charAt(0)).equals(String.valueOf(s3.charAt(0)))) {
@@ -139,48 +187,5 @@ public class Karnaugh_map {
         }
         return solution;
     }
-
-    private String convertToVar(String s, String s1) {
-        String solution = "";
-        if (s.charAt(0) == s1.charAt(0)) {
-//            System.out.println(s.charAt(0) + " " + s1.charAt(0));
-            if (String.valueOf(s.charAt(0)).equals("0")) {
-                solution += "A'";
-            } else {
-                solution += "A";
-            }
-            if (s.charAt(1) == s1.charAt(1)) {
-                if (String.valueOf(s.charAt(1)).equals("0")) {
-                    solution += "B'";
-                } else {
-                    solution += "B";
-                }
-            } else {
-                if (s.charAt(2) == s1.charAt(2)) {
-                    if (String.valueOf(s.charAt(2)).equals("0")) {
-                        solution += "C'";
-                    } else {
-                        solution += "C";
-                    }
-                }
-            }
-        } else {
-            if (s.charAt(1) == s1.charAt(1)) {
-                if (String.valueOf(s.charAt(1)).equals("0")) {
-                    solution += "B'";
-                } else {
-                    solution += "B";
-                }
-                if (String.valueOf(s.charAt(2)).equals("0")) {
-                    solution += "C'";
-                } else {
-                    solution += "C";
-                }
-            }
-        }
-
-        return solution;
-    }
-
 
 }
