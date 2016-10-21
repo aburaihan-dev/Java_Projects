@@ -100,45 +100,7 @@ public class Karnaugh_map {
 
     }
 
-    void kmapSolver_3() {
-        Vector<String> solved = new Vector<String>();
-
-        for (int i = 0; i < keep.length / 2; i++) {
-            if (i == 0 || i == 1 || i == 2 || i == 4) { // {0,2,4,6} and {1,3,5,7} group is available.
-                if (i != 1 && i!=4 && keep[i] == true && keep[i + 1] == true && keep[i + 4] == true && keep[i + 5] == true) {
-                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1], bit_string_3[i + 4], bit_string_3[i + 5]));
-                }
-                if (i != 2 && i!=4 && keep[i] == true && keep[i + 2] == true && keep[i + 4] == true && keep[i + 6] == true) {
-                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2], bit_string_3[i + 4], bit_string_3[i + 6]));
-                }
-                if ((i == 0 ^ i == 4) && keep[i] == true && keep[i + 1] == true && keep[i + 2] == true && keep[i + 3] == true) {
-                    solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2], bit_string_3[i + 4], bit_string_3[i + 6]));
-                }
-            }
-            if (keep[i] == true && keep[i + 1] == true && (keep[i + 4] == false || keep[i + 5] == false)) {
-                solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
-            }
-            if (keep[i] == true && keep[i + 4] == true && (keep[i + 1] == false || keep[i + 5] == false)) {
-                solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-            }
-            if (keep[i] == true && keep[i + 2] == true && (keep[i + 4] == false ^ keep[i + 6] == false)) {
-                solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
-            }
-            if (keep[i] == true && keep[i + 4] == true && (keep[i + 2] ==false ^ keep[i + 6] == false)) {
-                solved.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-            }
-        }
-
-        for (int i = 0; i < solved.size(); i++) {
-            if (i == 0) {
-                System.out.print(solved.elementAt(i).toString());
-            } else {
-                System.out.print(" + " + solved.elementAt(i).toString());
-            }
-        }
-    }
-
-    void kmapSolver_4() {
+    void k_mapSolver_three(){
 
     }
 
