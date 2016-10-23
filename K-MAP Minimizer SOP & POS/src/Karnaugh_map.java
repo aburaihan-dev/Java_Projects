@@ -150,6 +150,14 @@ public class Karnaugh_map {
             }
         }
 
+        showResult(solutions);
+
+    }
+
+    private void showResult(Vector solutions) {
+        for (Object solution : solutions) {
+            System.out.println(solution.toString());
+        }
     }
 
     private String convertToVar(String s, String s3) {

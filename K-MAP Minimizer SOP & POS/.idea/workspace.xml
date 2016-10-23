@@ -2,8 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d6cf76-5733-4038-83ad-0cbf71952c78" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../File Transfer Application With GUI/.idea/artifacts/File_Transfer_Client_jar.xml" afterPath="$PROJECT_DIR$/../File Transfer Application With GUI/.idea/artifacts/File_Transfer_Client_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../File Transfer Application With GUI/.idea/artifacts/File_Transfer_Server_jar.xml" afterPath="$PROJECT_DIR$/../File Transfer Application With GUI/.idea/artifacts/File_Transfer_Server_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../File Transfer Application With GUI/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../File Transfer Application With GUI/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/description.html" afterPath="$PROJECT_DIR$/../HELLO/.idea/description.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/misc.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/modules.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HELLO/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/HELLO.iml" afterPath="$PROJECT_DIR$/../HELLO/HELLO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/src/sample/Controller.java" afterPath="$PROJECT_DIR$/../HELLO/src/sample/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HELLO/src/sample/Main.java" afterPath="$PROJECT_DIR$/../HELLO/src/sample/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/Readme.md" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/Day5.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/Day5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/Day6.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/Day6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/Person.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day1.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day2.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day3.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day4.java" afterPath="$PROJECT_DIR$/../HackerRank30DaysOfCode/src/day4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRankAlgorithmsWarmUp/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../HackerRankAlgorithmsWarmUp/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRankAlgorithmsWarmUp/src/CompareTheTriplets.java" afterPath="$PROJECT_DIR$/../HackerRankAlgorithmsWarmUp/src/CompareTheTriplets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRankAlgorithmsWarmUp/src/SimpleArraySum.java" afterPath="$PROJECT_DIR$/../HackerRankAlgorithmsWarmUp/src/SimpleArraySum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/Readme.md" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_.java" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_1.java" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_1_2.java" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_1_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_2.java" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_3.java" afterPath="$PROJECT_DIR$/../HackerRank_ProjectEuler_Solutions/src/HakerRankEuler_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/K_Map.java" afterPath="$PROJECT_DIR$/src/K_Map.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Karnaugh_map.java" afterPath="$PROJECT_DIR$/src/Karnaugh_map.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ButtonEditor.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ButtonEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ButtonRenderer.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ButtonRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Cell.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Cell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ContentPanel.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ContentPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Coordinate.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Coordinate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DisjointSet.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DisjointSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DontCare.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DontCare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DontCareButtonEditor.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DontCareButtonEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DontCareButtonRenderer.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DontCareButtonRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DrawComponent.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DrawComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DrawGroupings.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/DrawGroupings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/FivePlusContentPanel.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/FivePlusContentPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Frame.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Frame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/GraycodeReflectedBinaryMappingSOP.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/GraycodeReflectedBinaryMappingSOP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Grouping.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Grouping.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/KarnaughMapRenderer.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/KarnaughMapRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/PrefixSum.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/PrefixSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Scenario.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Scenario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ScreenAbout.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/ScreenAbout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Settings.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/SimulationContentPanel.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/SimulationContentPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Solve.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/Solve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/TruthTable.java" afterPath="$PROJECT_DIR$/../K_Map_Simplifier_GUI/src/main/java/TruthTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LICENSE" afterPath="$PROJECT_DIR$/../LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/Readme.md" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Banknotes_1018.java" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Banknotes_1018.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Consumption_1014.java" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Consumption_1014.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Distance_1016.java" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Distance_1016.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Distance_Between_Two_Points_1015.java" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Distance_Between_Two_Points_1015.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Fuel_Spent_1017.java" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Fuel_Spent_1017.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Salary_with_Bonus_1009.java" afterPath="$PROJECT_DIR$/../URI Online Judge Beginner Problem Solve/src/beginners_problem_practice/Salary_with_Bonus_1009.java" />
     </list>
     <ignored path="K-MAP Minimizer SOP &amp; POS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,23 +106,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Karnaugh_map.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Karnaugh_map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="132" column="93" selection-start-line="132" selection-start-column="93" selection-end-line="132" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1487">
+              <caret line="190" column="24" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="K_Map.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="K_Map.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/K_Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="362">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -80,8 +151,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/K_Map.java" />
         <option value="C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/print/resources/serviceui.class" />
+        <option value="$PROJECT_DIR$/src/K_Map.java" />
         <option value="$PROJECT_DIR$/src/Karnaugh_map.java" />
       </list>
     </option>
@@ -93,10 +164,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1366" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -440,36 +509,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -567,21 +606,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.K_Map" />
     </list>
@@ -622,35 +646,37 @@
       <workItem from="1476885324819" duration="649000" />
       <workItem from="1477038302321" duration="288000" />
       <workItem from="1477046332063" duration="695000" />
-      <workItem from="1477052350716" duration="2549000" />
+      <workItem from="1477052350716" duration="2937000" />
+      <workItem from="1477071523647" duration="3396000" />
+      <workItem from="1477199273068" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41166000" />
+    <option name="totallyTimeSpent" value="45107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1816694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23027375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25162336" sideWeight="0.50292826" order="2" side_tool="true" content_ui="tabs" x="956" y="31" width="409" height="706" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23027375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13615733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13691376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13201821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2667758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25310558" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -699,120 +725,330 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>154</line>
+          <line>163</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>156</line>
+          <line>165</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>157</line>
+          <line>166</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>158</line>
+          <line>167</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>186</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>182</line>
+          <line>191</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>180</line>
+          <line>189</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>179</line>
+          <line>188</line>
           <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>178</line>
+          <line>187</line>
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>177</line>
+          <line>186</line>
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>174</line>
+          <line>183</line>
           <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>172</line>
+          <line>181</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>171</line>
+          <line>180</line>
           <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>170</line>
+          <line>179</line>
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>167</line>
+          <line>176</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>165</line>
+          <line>174</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>164</line>
+          <line>173</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>163</line>
+          <line>172</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
-          <line>160</line>
+          <line>169</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Karnaugh_map.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="114" />
+      <option name="time" value="149" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -825,9 +1061,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,9 +1093,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,9 +1109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -879,9 +1125,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -897,9 +1141,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -915,150 +1157,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/print/resources/serviceui.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1072,11 +1171,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="132" column="93" selection-start-line="132" selection-start-column="93" selection-end-line="132" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/print/resources/serviceui.class" />
+    <entry file="file://$PROJECT_DIR$/src/Karnaugh_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1487">
+          <caret line="190" column="24" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K_Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
