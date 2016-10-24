@@ -22,6 +22,7 @@ public class Karnaugh_mapTest {
 //        System.out.println(a[3] + "  " + b[3] + "  " + c[3]);
         map.test_run();
         map.k_mapSolver_three();
+        System.out.print("\n\nSolution (SOP): ");
         map.showResult();
     }
 

@@ -26,7 +26,7 @@ public class K_Map {
                 break;
             case 2: my_map.initiate_Kmap_three();
                 my_map.k_mapSolver_three();
-                System.out.println("\n\n");
+                System.out.print("\n\n Solution (SOP): ");
                 my_map.showResult();
                 break;
             case 3:
