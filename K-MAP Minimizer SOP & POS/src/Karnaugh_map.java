@@ -18,6 +18,17 @@ public class Karnaugh_map {
 
     Vector solutions = new Vector();
 
+    public void test_run() {
+        map[0] = true;
+        map[1] = true;
+        map[2] = true;
+
+        map[4] = true;
+        map[5] = true;
+        map[6] = true;
+        map_clone = map.clone();
+    }
+
     void initiate_Kmap_three() {
         Scanner scan = new Scanner(System.in);
         int x;
@@ -59,7 +70,7 @@ public class Karnaugh_map {
             System.out.print("Enter Don't care Location (insert '-1' to stop input): ");
         }
 
-        map_clone = map;
+        map_clone = map.clone();
     }
 
     void initiate_Kmap_4() {
@@ -122,21 +133,36 @@ public class Karnaugh_map {
         }
 
         for (int i = 0; i < 3; i++) {
-            if ((i == 0 || i == 1) && map[i] && map[i + 2] && map[i + 4] && map[i + 6]) { // {0,2,4,6} and {1,3,5,7}
-                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 6]));
-                map_clone[i] = false;
-                map_clone[i+2] = false;
-                map_clone[i+4] = false;
-                map_clone[i+6] = false;
+            if (i == 0 || i == 1) {
+                if (map[i] && map[i + 2] && map[i + 4] && map[i + 6]) { // {0,2,4,6} and {1,3,5,7}
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 6]));
+                    map_clone[i] = false;
+                    map_clone[i + 2] = false;
+                    map_clone[i + 4] = false;
+                    map_clone[i + 6] = false;
 
+                }
+                if (i != 1 && map[i] && map[i + 1] && map[i + 4] && map[i + 5]) { //{0,1,4,5} , {2,3,6,7}
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 5]));
+                    map_clone[i] = false;
+                    map_clone[i + 1] = false;
+                    map_clone[i + 4] = false;
+                    map_clone[i + 5] = false;
+                }
             }
-            if (i != 1 && map[i] && map[i + 1] && map[i + 4] && map[i + 5]) { //{0,1,4,5} , {2,3,6,7}
-                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 5]));
-                map_clone[i] = false;
-                map_clone[i+1] = false;
-                map_clone[i+4] = false;
-                map_clone[i+5] = false;
-            }
+
+//        for (int i = 0; i < 8; i++) {
+//            if (i == 0 || i == 4) {
+//
+//            } else if (i == 1 || i == 5) {
+//
+//            } else {
+//                if (i > 3 && map_clone[i] && map_clone[i + 1]) {
+//                    solutions.addElement(convertToVar(bit_string_3[i],bit_string_3[i+1]));
+//                    map_clone[i]=false;
+//                }else if (i > 3 && map_clone[i] && map_clone[i + 1])
+//            }
+//        }
         }
     }
 
@@ -183,3 +209,4 @@ public class Karnaugh_map {
     }
 
 }
+
