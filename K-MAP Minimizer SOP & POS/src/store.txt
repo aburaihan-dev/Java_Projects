@@ -1,0 +1,32 @@
+for (int i = 0; i < 3; i++) {
+
+            if (i == 0 || i == 1) {
+                if (map[i] && map[i + 2] && map[i + 4] && !map[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                } else if (map[i] && map[i + 2] && !map[i + 4] && map[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+                    solutions.addElement(convertToVar(bit_string_3[i + 2], bit_string_3[i + 6]));
+                } else if (map[i] && !map[i + 2] && map[i + 4] && map[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                    solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 6]));
+                } else if (!map[i] && map[i + 2] && map[i + 4] && map[i + 6]) {
+                    solutions.addElement(convertToVar(bit_string_3[i + 2], bit_string_3[i + 6]));
+                    solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 6]));
+                }
+            }
+
+            if (i != 1 && map[i] && map[i + 1] && map[i + 4] && !map[i + 5]) {
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+            } else if (i != 1 && map[i] && map[i + 1] && map[i + 5] && !map[i + 4]) {
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+                solutions.addElement(convertToVar(bit_string_3[i + 1], bit_string_3[i + 5]));
+            } else if (i != 1 && map[i] && map[i + 4] && map[i + 5] && !map[i + 1]) {
+                solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+                solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 5]));
+            } else if (i != 1 && map[i + 1] && map[i + 4] && map[i + 5] && !map[i]) {
+                solutions.addElement(convertToVar(bit_string_3[i + 1], bit_string_3[i + 5]));
+                solutions.addElement(convertToVar(bit_string_3[i + 4], bit_string_3[i + 5]));
+            }
+        }
