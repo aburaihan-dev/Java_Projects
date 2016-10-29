@@ -10,7 +10,15 @@ public class K_Map {
         Scanner scan = new Scanner(System.in);
 
         Karnaugh_map my_map = new Karnaugh_map();
+        my_map.test_run();
+        my_map.k_mapSolver_three();
+        my_map.showResult();
 
+//        menue(2,my_map);
+
+    }
+
+    private static void menue(int i, Karnaugh_map my_map) {
         boolean v = false;
 //        System.out.println(v!=true);
 
@@ -21,17 +29,20 @@ public class K_Map {
         System.out.println("**************************************");
         System.out.print("Enter Choice: ");
 
-        switch (scan.nextInt()) {
-            case 1:
-                break;
-            case 2: my_map.initiate_Kmap_three();
-                my_map.k_mapSolver_three();
-                System.out.print("\n\n Solution (SOP): ");
-                my_map.showResult();
-                break;
-            case 3:
-                break;
-            default:
-        }
+//        switch (scan.nextInt()) {
+//            case 1:
+//                break;
+//            case 2: //my_map.initiate_Kmap_three();
+//                my_map.test_run();
+//                my_map.k_mapSolver_three();
+//                System.out.print("\n\n Solution (SOP): ");
+//                my_map.showResult();
+//                break;
+//            case 3:
+//                break;
+//            default:
+//        }
     }
+
+
 }

@@ -19,12 +19,11 @@ public class Karnaugh_map {
     Vector solutions = new Vector();
 
     public void test_run() {
-        map[0] = true;
-//        map[3] = true;
-//        map[2] = true;
-//
-//        map[6] = true;
-//        map[7] = true;
+        map[1] =true;
+        map[2] =true;
+        map[3] =true;
+        map[4] =true;
+        map[5] =true;
         map_clone = map.clone();
     }
 
@@ -153,81 +152,68 @@ public class Karnaugh_map {
 
         for (int i = 0; i < 8; i++) {
             if (i == 0 || i == 4) {
-                if (map_clone[i] && map_clone[i + 1]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
-                    map_clone[i] = false;
-                    map_clone[i + 1] = false;
-                } else if (map_clone[i] && map[i + 1]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
-                    map_clone[i] = false;
-                }
+                if (map_clone[i] && !map[i + 1] && !map[i + 2] && !map[i + 4]) {
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i]));
+                } else {
+                    if (map_clone[i] && map[i + 1]) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+//                        map_clone[i] = false;
+//                        map_clone[i + 1] = false;
+                    }
 
-                if (map_clone[i] && map_clone[i + 4] && i < 3) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-                    map_clone[i] = false;
-                    map_clone[i + 1] = false;
-                } else if (map_clone[i] && map[i + 4] && i < 3) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-                    map_clone[i] = false;
-                }
+                    if (map_clone[i] && map[i + 2]) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+//                        map_clone[i] = false;
+//                        map_clone[i + 2] = false;
+                    }
 
-                if (map_clone[i] && map_clone[i + 2]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
-                    map_clone[i] = false;
-                    map_clone[i + 2] = false;
-                } else if (map_clone[i] && map[i + 2]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
-                    map_clone[i] = false;
-                }else {
-                    solutions.addElement(convertToVar(bit_string_3[i],bit_string_3[i]));
+                    if (map_clone[i] && map[i + 4] && i < 3) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+//                        map_clone[i] = false;
+                        map_clone[i + 4] = false;
+                    }
                 }
             } else if (i == 1 || i == 5) {
-                if (map_clone[i] && map_clone[i + 4] && i < 3) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-                    map_clone[i] = false;
-                    map_clone[i + 1] = false;
-                } else if (map_clone[i] && map[i + 4] && i < 3) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-                    map_clone[i] = false;
-                }
-
-                if (map_clone[i] && map_clone[i + 2]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
-                    map_clone[i] = false;
-                    map_clone[i + 2] = false;
-                } else if (map_clone[i] && map[i + 2]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
-                    map_clone[i] = false;
+                if(map_clone[i] && !map[i+2] && !map[i+4]){
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i]));
                 }else {
-                    solutions.addElement(convertToVar(bit_string_3[i],bit_string_3[i]));
+                    if (map_clone[i] && map_clone[i + 4] && i < 4) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+//                        map_clone[i] = false;
+                        map_clone[i + 4] = false;
+                    }
+
+                    if (map_clone[i] && map[i + 2]) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 2]));
+//                        map_clone[i] = false;
+//                        map_clone[i + 2] = false;
+                    }
                 }
             } else {
-                if (map_clone[i] && map_clone[i + 1]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
-                    map_clone[i] = false;
-                    map_clone[i + 1] = false;
-                } else if (map_clone[i] && map[i + 1]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
-                    map_clone[i] = false;
-                }
-                if (i < 3 && map_clone[i] && map_clone[i + 4]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-                    map_clone[i] = false;
-                    map_clone[i + 4] = false;
-                } else if (i < 3 && map_clone[i] && map[i + 4]) {
-                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
-                    map_clone[i] = false;
+                if(map_clone[i] && !map[i+1] && !map[i+4]){
+                    solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i]));
                 }else {
-                    solutions.addElement(convertToVar(bit_string_3[i],bit_string_3[i]));
+                    if (map_clone[i] && map[i + 1] && i!=3) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 1]));
+//                        map_clone[i] = false;
+//                        map_clone[i + 1] = false;
+                    }
+                    if (i < 4 && map_clone[i] && map_clone[i + 4]) {
+                        solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i + 4]));
+//                        map_clone[i] = false;
+                        map_clone[i + 4] = false;
+                    }
                 }
             }
         }
     }
 
     protected void showResult() {
-        int i=0;
+        boolean i =false;
+        System.out.print("\n\n Solution (SOP): ");
         for (Object solution : solutions) {
-            System.out.print((i++ > 0) ? "+ " + solution.toString() : solution.toString() + " "); ;
+            System.out.print((i) ? " + " + solution.toString() : solution.toString());
+            i = true;
         }
         System.out.println("");
     }
