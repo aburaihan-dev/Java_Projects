@@ -22,7 +22,7 @@ public class Karnaugh_map {
         map[1] =true;
         map[2] =true;
         map[3] =true;
-        map[4] =true;
+        map[6] =true;
         map[5] =true;
         map_clone = map.clone();
     }
@@ -190,7 +190,7 @@ public class Karnaugh_map {
                     }
                 }
             } else {
-                if(map_clone[i] && !map[i+1] && !map[i+4]){
+                if(map_clone[i] && !map[i+1] && !map[i+4] && i!=3 && i!=7){
                     solutions.addElement(convertToVar(bit_string_3[i], bit_string_3[i]));
                 }else {
                     if (map_clone[i] && map[i + 1] && i!=3) {
