@@ -40,7 +40,7 @@ public class Client_GUI extends JFrame implements ActionListener {
     private ClientNetwork myConnection;
 
     public Client_GUI() {
-        setTitle("File Transfer Client");
+        setTitle("AnyFileShare Client");
         setSize(700, 400);
         setResizable(false);
         try {

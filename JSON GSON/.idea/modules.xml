@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cryptography/Cryptography.iml" filepath="$PROJECT_DIR$/Cryptography/Cryptography.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic Class Example/Generic Class Example.iml" filepath="$PROJECT_DIR$/Generic Class Example/Generic Class Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSON GSON.iml" filepath="$PROJECT_DIR$/JSON GSON.iml" />
+    </modules>
+  </component>
+</project>

@@ -33,7 +33,7 @@ public class Server_GUI extends JFrame implements ActionListener {
     JTextArea console;
 
     public Server_GUI() {
-        setTitle("File Server GUI");
+        setTitle("AnyFileShare Server");
         setSize(700, 400);
         setResizable(false);
         fileChooser = new JFileChooser();
